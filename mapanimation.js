@@ -27,7 +27,7 @@ const busStops = [
    
   // TODO: add a marker to the map at the first coordinates in the array busStops. The marker variable should be named "marker"
   var marker=new mapboxgl.Marker()
-  .setLngLat([-71.104081,42.365554]) 
+  .setLngLat([-71.093729,42.359244]) 
   .addTo(map);
   // counter here represents the index of the current bus stop
   let counter = 0;
